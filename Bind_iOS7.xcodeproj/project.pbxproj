@@ -21,6 +21,17 @@
 		793B177417CBB1F200B2AB2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793B175617CBB1F200B2AB2F /* UIKit.framework */; };
 		793B177C17CBB1F200B2AB2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 793B177A17CBB1F200B2AB2F /* InfoPlist.strings */; };
 		793B177E17CBB1F200B2AB2F /* Bind_iOS7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B177D17CBB1F200B2AB2F /* Bind_iOS7Tests.m */; };
+		793B178D17CBB21900B2AB2F /* Bind.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B178817CBB21900B2AB2F /* Bind.m */; };
+		793B178E17CBB21900B2AB2F /* BindingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B178A17CBB21900B2AB2F /* BindingManager.m */; };
+		793B178F17CBB21900B2AB2F /* UIGestureRecognizer+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B178C17CBB21900B2AB2F /* UIGestureRecognizer+View.m */; };
+		793B179C17CBB23700B2AB2F /* CollectionBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B179117CBB23700B2AB2F /* CollectionBind.m */; };
+		793B179D17CBB23700B2AB2F /* NodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B179317CBB23700B2AB2F /* NodeModel.m */; };
+		793B179E17CBB23700B2AB2F /* NSMutableDictionary+NSObjectKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B179517CBB23700B2AB2F /* NSMutableDictionary+NSObjectKeys.m */; };
+		793B179F17CBB23700B2AB2F /* NSString+Index.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B179717CBB23700B2AB2F /* NSString+Index.m */; };
+		793B17A017CBB23700B2AB2F /* PanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B179917CBB23700B2AB2F /* PanGestureRecognizer.m */; };
+		793B17A117CBB23700B2AB2F /* UIView+Gestures.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B179B17CBB23700B2AB2F /* UIView+Gestures.m */; };
+		7959733A17D65763003312C2 /* LineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7959733917D65763003312C2 /* LineModel.m */; };
+		7959733D17D661F3003312C2 /* ZLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7959733C17D661F3003312C2 /* ZLineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,28 @@
 		793B177917CBB1F200B2AB2F /* Bind_iOS7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bind_iOS7Tests-Info.plist"; sourceTree = "<group>"; };
 		793B177B17CBB1F200B2AB2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		793B177D17CBB1F200B2AB2F /* Bind_iOS7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bind_iOS7Tests.m; sourceTree = "<group>"; };
+		793B178717CBB21900B2AB2F /* Bind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bind.h; sourceTree = "<group>"; };
+		793B178817CBB21900B2AB2F /* Bind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bind.m; sourceTree = "<group>"; };
+		793B178917CBB21900B2AB2F /* BindingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindingManager.h; sourceTree = "<group>"; };
+		793B178A17CBB21900B2AB2F /* BindingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindingManager.m; sourceTree = "<group>"; };
+		793B178B17CBB21900B2AB2F /* UIGestureRecognizer+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+View.h"; sourceTree = "<group>"; };
+		793B178C17CBB21900B2AB2F /* UIGestureRecognizer+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+View.m"; sourceTree = "<group>"; };
+		793B179017CBB23700B2AB2F /* CollectionBind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionBind.h; sourceTree = "<group>"; };
+		793B179117CBB23700B2AB2F /* CollectionBind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionBind.m; sourceTree = "<group>"; };
+		793B179217CBB23700B2AB2F /* NodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeModel.h; sourceTree = "<group>"; };
+		793B179317CBB23700B2AB2F /* NodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeModel.m; sourceTree = "<group>"; };
+		793B179417CBB23700B2AB2F /* NSMutableDictionary+NSObjectKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+NSObjectKeys.h"; sourceTree = "<group>"; };
+		793B179517CBB23700B2AB2F /* NSMutableDictionary+NSObjectKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+NSObjectKeys.m"; sourceTree = "<group>"; };
+		793B179617CBB23700B2AB2F /* NSString+Index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Index.h"; sourceTree = "<group>"; };
+		793B179717CBB23700B2AB2F /* NSString+Index.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Index.m"; sourceTree = "<group>"; };
+		793B179817CBB23700B2AB2F /* PanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanGestureRecognizer.h; sourceTree = "<group>"; };
+		793B179917CBB23700B2AB2F /* PanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanGestureRecognizer.m; sourceTree = "<group>"; };
+		793B179A17CBB23700B2AB2F /* UIView+Gestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gestures.h"; sourceTree = "<group>"; };
+		793B179B17CBB23700B2AB2F /* UIView+Gestures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gestures.m"; sourceTree = "<group>"; };
+		7959733817D65763003312C2 /* LineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineModel.h; sourceTree = "<group>"; };
+		7959733917D65763003312C2 /* LineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineModel.m; sourceTree = "<group>"; };
+		7959733B17D661F3003312C2 /* ZLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLineView.h; sourceTree = "<group>"; };
+		7959733C17D661F3003312C2 /* ZLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +150,16 @@
 				793B176417CBB1F200B2AB2F /* Main.storyboard */,
 				793B176717CBB1F200B2AB2F /* ZViewController.h */,
 				793B176817CBB1F200B2AB2F /* ZViewController.m */,
+				7959733617D6565B003312C2 /* Bind */,
+				7959733717D6567D003312C2 /* Categories */,
+				793B179217CBB23700B2AB2F /* NodeModel.h */,
+				793B179317CBB23700B2AB2F /* NodeModel.m */,
+				7959733817D65763003312C2 /* LineModel.h */,
+				7959733917D65763003312C2 /* LineModel.m */,
+				793B179817CBB23700B2AB2F /* PanGestureRecognizer.h */,
+				793B179917CBB23700B2AB2F /* PanGestureRecognizer.m */,
+				7959733B17D661F3003312C2 /* ZLineView.h */,
+				7959733C17D661F3003312C2 /* ZLineView.m */,
 				793B176A17CBB1F200B2AB2F /* Images.xcassets */,
 				793B175917CBB1F200B2AB2F /* Supporting Files */,
 			);
@@ -150,6 +193,34 @@
 				793B177A17CBB1F200B2AB2F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7959733617D6565B003312C2 /* Bind */ = {
+			isa = PBXGroup;
+			children = (
+				793B178717CBB21900B2AB2F /* Bind.h */,
+				793B178817CBB21900B2AB2F /* Bind.m */,
+				793B179017CBB23700B2AB2F /* CollectionBind.h */,
+				793B179117CBB23700B2AB2F /* CollectionBind.m */,
+				793B178917CBB21900B2AB2F /* BindingManager.h */,
+				793B178A17CBB21900B2AB2F /* BindingManager.m */,
+			);
+			name = Bind;
+			sourceTree = "<group>";
+		};
+		7959733717D6567D003312C2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				793B178B17CBB21900B2AB2F /* UIGestureRecognizer+View.h */,
+				793B178C17CBB21900B2AB2F /* UIGestureRecognizer+View.m */,
+				793B179617CBB23700B2AB2F /* NSString+Index.h */,
+				793B179717CBB23700B2AB2F /* NSString+Index.m */,
+				793B179A17CBB23700B2AB2F /* UIView+Gestures.h */,
+				793B179B17CBB23700B2AB2F /* UIView+Gestures.m */,
+				793B179417CBB23700B2AB2F /* NSMutableDictionary+NSObjectKeys.h */,
+				793B179517CBB23700B2AB2F /* NSMutableDictionary+NSObjectKeys.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +321,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793B179F17CBB23700B2AB2F /* NSString+Index.m in Sources */,
+				793B179E17CBB23700B2AB2F /* NSMutableDictionary+NSObjectKeys.m in Sources */,
+				793B178F17CBB21900B2AB2F /* UIGestureRecognizer+View.m in Sources */,
 				793B175F17CBB1F200B2AB2F /* main.m in Sources */,
+				793B17A017CBB23700B2AB2F /* PanGestureRecognizer.m in Sources */,
+				7959733D17D661F3003312C2 /* ZLineView.m in Sources */,
+				7959733A17D65763003312C2 /* LineModel.m in Sources */,
 				793B176917CBB1F200B2AB2F /* ZViewController.m in Sources */,
+				793B179D17CBB23700B2AB2F /* NodeModel.m in Sources */,
+				793B178D17CBB21900B2AB2F /* Bind.m in Sources */,
 				793B176317CBB1F200B2AB2F /* ZAppDelegate.m in Sources */,
+				793B178E17CBB21900B2AB2F /* BindingManager.m in Sources */,
+				793B17A117CBB23700B2AB2F /* UIView+Gestures.m in Sources */,
+				793B179C17CBB23700B2AB2F /* CollectionBind.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +537,7 @@
 				793B178317CBB1F200B2AB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		793B178417CBB1F200B2AB2F /* Build configuration list for PBXNativeTarget "Bind_iOS7Tests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +546,7 @@
 				793B178617CBB1F200B2AB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
